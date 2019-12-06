@@ -20,6 +20,8 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+
+
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
@@ -48,6 +50,12 @@ group :test do
   gem 'selenium-webdriver', '~>3.142' 
   # Easy installation and use of web drivers to run system tests with browsers
   gem 'webdrivers', '~>4.1'
+
+  # testing
+  gem 'minitest-reporters'
+  gem 'mini_backtrace'
+  gem 'guard'
+  gem 'guard-minitest'
 end
 
 group :production do

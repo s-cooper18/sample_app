@@ -18,6 +18,9 @@
 !/log/.keep
 !/tmp/.keep
 
+# ignore spring files
+/spring/*.pid
+
 # Ignore uploaded files in development.
 /storage/*
 !/storage/.keep
