@@ -18,6 +18,10 @@ class SessionsController < ApplicationController
   end
 
   def destroy
-
+    # log out
+    # delete the user session
+    log_out
+    # redirect the page
+    redirect_to root_url
   end
 end
