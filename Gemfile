@@ -26,7 +26,7 @@ gem 'jbuilder', '~> 2.7'
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
 
-
+gem 'faker'
 
 
 # Use Active Storage variant
@@ -50,7 +50,7 @@ group :development do
   gem 'spring', '~>2.1'
   gem 'spring-watcher-listen', '~> 2.0.0'
 
-  gem 'faker'
+  
 end
 
 group :test do
